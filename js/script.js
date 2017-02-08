@@ -99,7 +99,8 @@ function checkRoundWinner(playerPick, computerPick) {
     if (computer.score >= 10 || player.score >= 10) {
         if (player.score > computer.score){
           alert("Wygrał/-a " + player.name + "!")
-        } else {alert("Wygrał komputer!");
+        } else {
+			alert("Wygrał komputer!");
         }
         gameState = "ended";
         setGameElements();
